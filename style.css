@@ -1,0 +1,234 @@
+body {
+  color: #837e9f;
+  margin: 30px;
+  background-color: #22212c;
+  font-family: "Open Sans", sans-serif;
+  cursor: default;
+}
+
+* {
+  margin: 0px;
+}
+
+/* .tec:hover,
+.icons:hover,
+.profile:hover,
+.exp:hover,
+.my-projects:hover,
+.projects:hover,
+.rec-post:hover {
+  padding: 15px;
+} */
+
+.profile,
+.icons,
+.tec,
+.exp {
+  margin-bottom: 30px;
+  width: 28%;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #302f3d;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.perfil {
+  border: 2px solid green;
+  width: 110px;
+  border-radius: 100px;
+  height: 110px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.text > h1 {
+  display: block;
+  font-size: 2em;
+  margin: auto;
+  font-weight: bold;
+}
+
+.text > p {
+  padding-bottom: 15px;
+}
+
+.text {
+  padding-bottom: 60px;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+}
+
+figcaption {
+  padding-top: 2px;
+  padding-left: 15px;
+}
+
+.icons > figure {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+a {
+  color: #837e9f;
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.tec {
+  height: 200px;
+  text-align: left;
+}
+
+.exp {
+  height: 320px;
+  text-align: left;
+}
+
+.tec > ul {
+  padding-left: 20px;
+}
+
+.tec > ul > li {
+  font-weight: bold;
+  background-color: #cb92b1;
+  color: black;
+  width: 86px;
+  padding-left: 2px;
+  height: 28px;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 12px;
+  padding: 4px;
+  margin-right: 20px;
+  margin-top: 25px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+ul {
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.post {
+  width: 60%;
+  position: absolute;
+  margin-left: 400px;
+}
+
+.my-projects {
+  background-color: #302f3d;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  width: 105%;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.my-projects > figure > a {
+  font-size: 14px;
+  padding-top: 30px;
+  padding-left: 70%;
+}
+
+.projects,
+.projects-2 {
+  background-color: #302f3d;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  width: 50%;
+  height: 200px;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.projects-2 {
+  margin-left: 55%;
+  margin-top: 30px;
+}
+
+.projects > figure {
+  padding: 30px;
+}
+
+.projects-2 > figure {
+  padding: 30px;
+}
+
+.projects > p {
+  margin-left: 20px;
+}
+
+.number {
+  margin-left: -10;
+}
+
+figcaption > p {
+  margin-right: 18px;
+}
+
+.circlo {
+  width: 10px;
+  height: 10px;
+  margin-left: 95px;
+  margin-top: 5px;
+  background-color: yellow;
+  border-radius: 50px;
+  border: 2px solid #837e9f;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.css {
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.rec-post {
+  background-color: #302f3d;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  width: 105%;
+  height: 80px;
+  border-radius: 20px;
+  margin-top: 270px;
+}
+
+.rec-post {
+  background-color: #302f3d;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  width: 105%;
+  height: 80px;
+  border-radius: 20px;
+  margin-top: 270px;
+}
+
+.rec-post > figure > a {
+  font-size: 14px;
+  padding-top: 30px;
+  padding-left: 70%;
+}
+
+.end {
+  margin-top: 100px;
+  text-align: center;
+}
