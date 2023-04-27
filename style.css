@@ -1,38 +1,55 @@
+html {
+  height: 0;
+  width: 0;
+}
+
 body {
   color: #837e9f;
-  margin: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
   background-color: #22212c;
   font-family: "Open Sans", sans-serif;
   cursor: default;
+  justify-content: center;
 }
 
 * {
   margin: 0px;
 }
 
-/* .tec:hover,
+.all {
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  padding-right: 30px;
+}
+
+.tec:hover,
 .icons:hover,
 .profile:hover,
 .exp:hover,
 .my-projects:hover,
 .projects:hover,
 .rec-post:hover {
-  padding: 15px;
-} */
+  padding: 6px;
+}
 
 .profile,
 .icons,
 .tec,
 .exp {
-  margin-bottom: 30px;
-  width: 28%;
-  height: 250px;
+  margin-bottom: 1.875rem;
+  width: 22rem;
+  height: 15.625rem;
   border-radius: 20px;
   background-color: #302f3d;
   text-align: center;
   display: flex;
   flex-direction: column;
   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  justify-content: center;
 }
 
 .perfil {
@@ -131,15 +148,15 @@ p {
 
 .post {
   width: 60%;
-  position: absolute;
-  margin-left: 400px;
+  /* position: absolute; */
+  /* margin-left: 400px; */
 }
 
 .my-projects {
   background-color: #302f3d;
   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
-  width: 105%;
-  height: 80px;
+  width: 54rem;
+  height: 5rem;
   border-radius: 20px;
 }
 
@@ -153,15 +170,15 @@ p {
 .projects-2 {
   background-color: #302f3d;
   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
-  width: 50%;
-  height: 200px;
+  width: 25.7rem;
+  height: 12.5rem;
   border-radius: 20px;
   position: absolute;
   margin-top: 30px;
 }
 
 .projects-2 {
-  margin-left: 55%;
+  margin-left: 450px;
   margin-top: 30px;
 }
 
@@ -207,17 +224,8 @@ figcaption > p {
 .rec-post {
   background-color: #302f3d;
   box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
-  width: 105%;
-  height: 80px;
-  border-radius: 20px;
-  margin-top: 270px;
-}
-
-.rec-post {
-  background-color: #302f3d;
-  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
-  width: 105%;
-  height: 80px;
+  width: 54rem;
+  height: 5rem;
   border-radius: 20px;
   margin-top: 270px;
 }
@@ -229,6 +237,7 @@ figcaption > p {
 }
 
 .end {
-  margin-top: 100px;
-  text-align: center;
+  height: 50px;
+  width: 150px;
+  margin-left: 35rem;
 }
