@@ -26,16 +26,6 @@ body {
   padding-right: 30px;
 }
 
-.tec:hover,
-.icons:hover,
-.profile:hover,
-.exp:hover,
-.my-projects:hover,
-.projects:hover,
-.rec-post:hover {
-  padding: 6px;
-}
-
 .profile,
 .icons,
 .tec,
